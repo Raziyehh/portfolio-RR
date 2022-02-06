@@ -3,12 +3,15 @@ font-family: "Ribeye Marrow", cursive;
 
 */
 
-body {
+.border {
+  margin-left: 20vw;
+  height: 100vh;
+  width: 60vw;
   background-image: url("/images/Raziye-pic.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 70vh auto;
-  background-position: top 50px left 1px;
+  background-position: top 8vh left 20vw;
 }
 
 h1 {
@@ -17,8 +20,8 @@ h1 {
   font-weight: 500;
   line-height: 1;
   position: fixed;
-  top: 15vh;
-  left: 16vw;
+  top: 13vh;
+  left: 37vw;
   width: 15vw;
 }
 
@@ -37,14 +40,14 @@ h3 {
   line-height: 1;
   position: fixed;
   top: 38vh;
-  left: 16vw;
+  left: 37vw;
   width: 15vw;
 }
 
 ul {
   list-style-type: none;
   position: fixed;
-  left: 17.5vw;
+  left: 38vw;
   top: 76.5vh;
 }
 
@@ -60,7 +63,7 @@ ul {
   font-weight: 400;
   position: fixed;
   top: 52vh;
-  left: 22vw;
+  left: 42vw;
   width: 15vw;
 }
 
@@ -71,7 +74,7 @@ ul {
   font-weight: 700;
   position: fixed;
   top: 67vh;
-  left: 22vw;
+  left: 42vw;
 }
 
 .space {
@@ -89,7 +92,7 @@ ul {
 .work-section {
   position: fixed;
   top: 75vh;
-  width: 100%;
+  width: inherit;
   background-color: #61dfd5;
 }
 
