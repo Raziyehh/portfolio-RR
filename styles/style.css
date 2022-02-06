@@ -1,15 +1,51 @@
+/* 
+font-family: "Ribeye Marrow", cursive;
+
+*/
+
 body {
   background-image: url("/images/Raziye-pic.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 65vh auto;
+  background-size: 70vh auto;
   background-position: top 50px left 1px;
+}
+
+h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 1;
+  position: fixed;
+  top: 15vh;
+  left: 16vw;
+  width: 15vw;
+}
+
+.name {
+  color: #f5a7b1;
+}
+
+.last-name {
+  color: #e97b89;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1;
+  position: fixed;
+  top: 38vh;
+  left: 16vw;
+  width: 15vw;
 }
 
 ul {
   list-style-type: none;
-  position: relative;
-  left: 50vw;
+  position: fixed;
+  left: 17.5vw;
+  top: 76.5vh;
 }
 
 .SheCodes-logo {
@@ -17,10 +53,46 @@ ul {
   text-decoration: none;
 }
 
-.work-link {
-  color: black;
-  font-size: 15px;
+.paragraph {
+  line-height: 1.1;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: fixed;
+  top: 52vh;
+  left: 22vw;
+  width: 15vw;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: #0b85a2;
+  font-size: 14px;
   font-weight: 700;
+  position: fixed;
+  top: 67vh;
+  left: 22vw;
+}
+
+.space {
+  margin: 19vh 0;
+}
+
+.work-link {
+  color: #272343;
+  font-size: 14px;
+  font-weight: 600;
   text-decoration: none;
   margin-left: 4vw;
+}
+
+.work-section {
+  position: fixed;
+  top: 75vh;
+  width: 100%;
+  background-color: #61dfd5;
+}
+
+a:hover {
+  color: #085e72;
 }
