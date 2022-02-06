@@ -1,6 +1,26 @@
 body {
-  background-image: url("/images/PicsArt_02-02-11.41.09.jpg");
+  background-image: url("/images/Raziye-pic.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 70vh 50vw;
+  background-size: 65vh auto;
+  background-position: top 50px left 1px;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  left: 50vw;
+}
+
+.SheCodes-logo {
+  width: 7vw;
+  text-decoration: none;
+}
+
+.work-link {
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 4vw;
 }
