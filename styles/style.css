@@ -51,11 +51,7 @@ a:hover {
 .navbar {
   background-color: #be234f;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
-}
-
-.navbar-nav {
-  margin-left: 22vw;
+  font-size: 15px;
 }
 
 .name {
@@ -86,6 +82,7 @@ a:hover {
   font-weight: 700;
   margin-left: 8vw;
   margin-top: 1vh;
+  margin-bottom: 2vh;
 }
 
 .work-section {
@@ -173,6 +170,10 @@ a:hover {
     text-decoration: none;
     text-align: center;
     margin-left: 2vw;
+  }
+
+  .navbar-nav {
+    margin-left: 80vw;
   }
 
   .about-page h1 {
