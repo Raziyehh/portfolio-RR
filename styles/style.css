@@ -85,13 +85,13 @@ a:hover {
   margin-bottom: 2vh;
 }
 
-.work-section {
+.work-samples-section {
   text-align: center;
   background-color: #61dfd5;
   margin: 0 1px;
 }
 
-.work-link {
+.work-samples-link {
   color: #272343;
   font-size: 13px;
   font-weight: 500;
@@ -130,6 +130,92 @@ a:hover {
   margin: 11vh 5vw 5vh 3vh;
   border-radius: 10px;
   border: solid 2px #f5a7b1;
+}
+
+.work-page h1 {
+  color: #e97b89;
+  text-align: center;
+}
+
+.work-page h2 {
+  font-family: "Fredericka the Great", cursive;
+  margin: 9vh 0 6vh 0;
+  color: #e97b89;
+  text-align: center;
+}
+
+.work-inquiry-section h4 {
+  padding-top: 2vh;
+  margin-left: 8vw;
+  color: #e97b89;
+  font-family: "Fredericka the Great", cursive;
+  line-height: 1.7;
+  font-size: 35px;
+}
+
+.work-page p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-size: 17px;
+}
+
+.work-inquiry-section p {
+  padding-top: 4vh;
+  margin-left: 3vw;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 32px;
+}
+
+.work-page a {
+  text-decoration: none;
+}
+
+.work-link-container {
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+.work-link {
+  text-decoration: none;
+  color: #0b85a2;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.work-contact-link {
+  font-family: "Fredericka the Great", cursive;
+  margin-left: 5vw;
+
+  text-decoration: none;
+  color: #0b85a2;
+  font-size: 29px;
+}
+
+.work-inquiry-section {
+  border-radius: 10px;
+  background-color: #60dacf;
+  margin: 5vh 0;
+}
+
+.hormoz-pic,
+.Weather-pic {
+  border-radius: 10px;
+  border: solid 2px #f5a7b1;
+  width: 33vw;
+  height: 50vh;
+  margin: 7vh 9vw 2vh 4vw;
+}
+
+.basic-pic,
+.Pro-pic,
+.responsiv-pic {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: solid 2px #f5a7b1;
+  width: 20vw;
+  height: 30vh;
 }
 
 @media (max-width: 991.98px) {
