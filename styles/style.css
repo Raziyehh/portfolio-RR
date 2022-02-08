@@ -127,6 +127,7 @@ a:hover {
 }
 
 .about-person-picture {
+  pointer-events: none;
   margin: 11vh 5vw 5vh 3vh;
   border-radius: 10px;
   border: solid 2px #f5a7b1;
